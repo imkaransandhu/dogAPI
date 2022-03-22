@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.main-heading {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+.dog-dropdown{
+    text-align: center;
+}
+
+.breed-list {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #000;
+}
+
+.doggos {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dog-img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.loader {
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #000;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 46%;
+    top: 40%;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
